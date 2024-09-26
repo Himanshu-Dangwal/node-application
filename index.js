@@ -9,7 +9,7 @@ const PORT = 8080;
 app.get("/", (req, res) => {
     res.json({
         status: 200,
-        message: "Hello from EC2 machine"
+        message: "Hello from EC2 machine check"
     })
 })
 
